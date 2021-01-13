@@ -11,111 +11,108 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form
-    action="https://mate-academy-form-lesson.herokuapp.com/create-application"
-    method="POST"
-    onsubmit="onSubmit()">
+      action="https://mate-academy-form-lesson.herokuapp.com/create-application"
+      method="POST"
+      onsubmit="onSubmit()"
+    >
       <fieldset class="field">
-        <legend>Personal information
-        </legend>
-        <label
-        class="container"
-        for="Surname">Surname:
+        <legend>Personal information</legend>
+        <label class="container" for="Surname">
+        Surname:
           <input
-          type="text"
-          name="Surname"
-          id="Surname">
+            type="text"
+            name="Surname"
+            id="Surname"
+          >
         </label>
-        <label
-        class="container"
-        for="Name">Name:
+        <label class="container" for="Name">
+        Name:
           <input
-          type="text"
-          name="Name"
-           id="Name">
+            type="text"
+            name="Name"
+            id="Name"
+          >
         </label>
-        <label
-        class="container"
-        for="age">How old are You?
+        <label class="container" for="age">
+        How old are You?
           <input
-          type="number"
-          name="How old are you?"
-          id="age"
-          min="0"
-          value="12"
-          max="100">
+            type="number"
+            name="How old are you?"
+            id="age"
+            min="0"
+            value="12"
+            max="100"
+          >
         </label>
-        <label
-        class="container"
-        for="date">Full date of birth:
+        <label class="container" for="date">
+        Full date of birth:
           <input
-          type="date"
-          name="date of birth"
-          id="date">
+            type="date"
+            name="date of birth"
+            id="date"
+          >
         </label>
-        <label
-        class="container last"
-        for="terms">I accept the term of the agreement
+        <label class="container last" for="terms">
+        I accept the term of the agreement
           <input
-          type="checkbox"
-          name="terms"
-          id="terms"
-          required>
+            type="checkbox"
+            name="terms"
+            id="terms"
+            required
+          >
         </label>
       </fieldset>
       <fieldset class="field">
-        <legend>Registration
-        </legend>
-        <label
-        class="container"
-        for="email">E-mail:
+        <legend>Registration</legend>
+        <label class="container" for="email">
+        E-mail:
           <input
-          type="email"
-          placeholder="email@example.com"
-          multiple
-          id="email">
+            type="email"
+            placeholder="email@example.com"
+            multiple
+            id="email"
+          >
         </label>
-        <label
-        class="container last"
-        for="password">Password:
+        <label class="container last" for="password">
+        Password:
           <input type="password"
-          minlength="6"
-          maxlength="30"
-          id="password">
+            minlength="6"
+            maxlength="30"
+            id="password"
+          >
         </label>
       </fieldset>
       <fieldset class="field">
-        <legend>An interesting fact about you!
+        <legend>
+        An interesting fact about you!
         </legend>
-        <label
-        class="container"
-        for="lovecats">Do you love cats?
+        <label class="container" for="lovecats">
+        Do you love cats?
           <input
-          type="radio"
-          id="lovecats"
-          name="lovecats"> Yes
+            type="radio"
+            id="lovecats"
+            name="lovecats"
+          >Yes
           <input
-          type="radio"
-          id="lovecats-false"
-          name="lovecats"> No
+            type="radio"
+            id="lovecats-false"
+            name="lovecats"
+          >No
         </label>
-        <label
-        class="container"
-        for="color">What is your favorite color?
-          <input
-          type="color"
-          id="color">
+        <label class="container" for="color">
+        What is your favorite color?
+          <input type="color" id="color">
         </label>
-        <label
-        class="container"
-        for="time">What time do you go to bed?
+        <label class="container" for="time">
+        What time do you go to bed?
           <input
-          type="time"
-          id="time"
-          step="2">
+            type="time"
+            id="time"
+            step="2"
+          >
         </label>
-        <label
-        class="container"
-        for="car">What are your favorite brand of cars?
+        <label class="container" for="car">
+        What are your favorite brand of cars?
           <select id="car" multiple>
             <option value="BMW"  id="car-BMW">BMW</option>
             <option value="Audi" id="car-Audi">Audi</option>
@@ -123,28 +120,23 @@
             <option value=""></option>
           </select>
         </label>
-        <label
-        class="container last"
-        for="rate">How do you rate our work?
+        <label class="container last" for="rate">
+        How do you rate our work?
           <input
-          type="range"
-          id="rate"
-          value="0">
+            type="range"
+            id="rate"
+            value="0"
+          >
         </label>
       </fieldset>
       <fieldset class="field">
-        <legend>Additional info:
-        </legend>
-        <label  class="container"
-        for="comments">Comments:
-          <textarea
-          type="text"
-          id="comments">
-          </textarea>
+        <legend>Additional info:</legend>
+        <label  class="container" for="comments">
+        Comments:
+          <textarea type="text" id="comments"></textarea>
         </label>
-        <label
-        class="container last"
-        for="rec">Would you recommend us?
+        <label class="container last" for="rec">
+        Would you recommend us?
           <select id="rec">
             <option value="yes">yes</option>
             <option value="no">no</option>
